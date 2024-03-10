@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   if (username.value === 'Yeison0' && password.value === 'TheGame') {
-    alert('¡Inicio de sesión perfecto!');
+    window.location.href = 'https://streamable.com/xnq0jh';
   } else {
     showAlert();
   }
