@@ -14,11 +14,14 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   if ((username.value === 'Yeison0' && password.value === 'TheGame') || 
-      (username.value === 'Yeison1' && password.value === 'Qwerty')) {
+      (username.value === 'Yeison1' && password.value === 'Qwerty') ||
+      (username.value === 'Yeison2' && password.value === 'Heads')) {
     if (username.value === 'Yeison0') {
       window.location.href = 'https://streamable.com/xnq0jh';
     } else if (username.value === 'Yeison1') {
       window.location.href = 'https://streamable.com/586os1';
+    } else if (username.value === 'Yeison2') {
+      window.location.href = 'https://streamable.com/cf5mib';
     }
   } else {
     showAlert();
