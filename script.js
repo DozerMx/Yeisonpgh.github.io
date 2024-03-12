@@ -17,10 +17,9 @@ form.addEventListener('submit', (e) => {
       (username.value === 'Yeison2' && password.value === 'Qwerty') ||
       (username.value === 'Yeison3' && password.value === 'Heads') ||
       (username.value === 'Yeison4' && password.value === 'Zetas') ||
-      (username.value === 'Yeison5' && password.value === 'Cartel')) {
-    if (username.value === 'Yeison0') {
-      window.location.href = 'https://streamable.com/xnq0jh';
-    } else if (username.value === 'Yeison1') {
+      (username.value === 'Yeison5' && password.value === 'Cartel') ||
+      (username.value === 'Yeison6' && password.value === 'Before')) {
+    if (username.value === 'Yeison1') {
       window.location.href = 'https://streamable.com/586os1';
     } else if (username.value === 'Yeison2') {
       window.location.href = 'https://streamable.com/cf5mib';
@@ -28,6 +27,10 @@ form.addEventListener('submit', (e) => {
       window.location.href = 'https://streamable.com/4935lm';
     } else if (username.value === 'Yeison4') {
       window.location.href = 'https://streamable.com/jslexi';
+    } else if (username.value === 'Yeison5') {
+      window.location.href = 'https://streamable.com/4zcjzc';
+    } else if (username.value === 'Yeison6') {
+      window.location.href = 'https://streamable.com/xnq0jh';
     }
   } else {
     showAlert();
